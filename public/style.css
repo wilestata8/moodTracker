@@ -1,0 +1,160 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+
+}
+img{
+  height: 202px;
+ 
+}
+.indexBody{
+  background-color: #212121;
+}
+.indexContainer{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1.25em solid var(--glow-color);
+  border-radius: 1em;
+  color: var(--glow-color);
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  height: 509px;
+  box-shadow: inset 0px 0px 40px 40px  rgb(217, 176, 255);
+ 
+}
+.jumbotron{
+  background-color: rgb(100, 61, 136);
+  padding: none;
+}
+.btn, .loginBtn, .profileButton{
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+   .loginBody{
+    background-color: #212121;
+   }
+   .h1Login{
+     color: rgb(217, 176, 255);
+     background-color:  rgb(100, 61, 136);
+     border: .45em solid rgb(217, 176, 255);
+     border-radius: 5%;
+     text-align: center;
+   }
+   hr{   
+     color: rgb(217, 176, 255);
+    }
+label{
+  color: rgb(217, 176, 255);
+  font-size: 20px;
+}
+.loginForm{
+  background-color:  rgb(100, 61, 136);
+  height:250px;
+  border: 1.25em solid rgb(217, 176, 255);
+  border-radius: 10%;
+  
+}
+.form-control{
+  border: 1.25em solid rgb(217, 176, 255);
+  border: 3px solid rgb(217, 176, 255);
+  margin-left: auto;
+  width: 80%;
+  margin-right: auto;
+}
+
+ .loginP{
+   color:  rgb(100, 61, 136);
+ }
+ .loginA{
+   color: rgb(217, 176, 255);
+   text-decoration: underline;
+
+ }
+ .profileBody{
+   background-color: #212121;
+ }
+
+.profileContainer{
+  background-color: rgb(100, 61, 136) ;
+  border: 1.25em solid rgb(217, 176, 255);
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  height: 550px;
+}
+.profileH, .profileA, .profileH3, .profileh2, .message span{
+  color: rgb(217, 176, 255);
+}
+.profileDiv{
+  display: none;
+}
+
+li{
+  list-style-type: none;
+}
+.profileA{
+  text-decoration: underline;
+}
+.profileH3{
+  font-size: 40px;
+}
+
+.col-sm-6 {
+    font-size: 15px;
+  
+}
+i{
+  color: whitesmoke;
+}
+.row{
+  width: 205%;
+ 
+}
