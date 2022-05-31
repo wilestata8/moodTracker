@@ -17,22 +17,22 @@ img{
   border: 1.25em solid var(--glow-color);
   border-radius: 1em;
   color: var(--glow-color);
-  --glow-color: rgb(217, 176, 255);
-  --glow-spread-color: rgba(191, 123, 255, 0.781);
-  --enhanced-glow-color: rgb(231, 206, 255);
-  height: 509px;
-  box-shadow: inset 0px 0px 40px 40px  rgb(217, 176, 255);
+  --glow-color: rgba(226, 43, 18, 0.81);
+  --glow-spread-color: rgba(174, 25, 5, 0.83);
+  --enhanced-glow-color: rgba(248, 91, 70, 0.81);
+  height: 324px;
+ 
  
 }
 .jumbotron{
-  background-color: rgb(100, 61, 136);
+  background-color: rgba(174, 25, 5, 0.83);
   padding: none;
 }
 .btn, .loginBtn, .profileButton{
-    --glow-color: rgb(217, 176, 255);
-    --glow-spread-color: rgba(191, 123, 255, 0.781);
-    --enhanced-glow-color: rgb(231, 206, 255);
-    --btn-color: rgb(100, 61, 136);
+    --glow-color: rgba(226, 43, 18, 0.81);
+    --glow-spread-color: rgba(174, 25, 5, 0.83);
+    --enhanced-glow-color: rgba(248, 91, 70, 0.81);
+    --btn-color: rgba(174, 25, 5, 0.83);
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
@@ -80,39 +80,39 @@ img{
     background-color: #212121;
    }
    .h1Login{
-     color: rgb(217, 176, 255);
-     background-color:  rgb(100, 61, 136);
-     border: .45em solid rgb(217, 176, 255);
+     color:rgba(226, 43, 18, 0.81);
+     background-color:  rgba(174, 25, 5, 0.83);
+     border: .45em solid rgba(248, 91, 70, 0.81);
      border-radius: 5%;
      text-align: center;
    }
    hr{   
-     color: rgb(217, 176, 255);
+     color:rgba(226, 43, 18, 0.81);
     }
 label{
-  color: rgb(217, 176, 255);
+  color: rgba(226, 43, 18, 0.81);
   font-size: 20px;
 }
 .loginForm{
-  background-color:  rgb(100, 61, 136);
+  background-color:  rgba(174, 25, 5, 0.83);
   height:250px;
-  border: 1.25em solid rgb(217, 176, 255);
+  border: 1.25em solid rgba(226, 43, 18, 0.81);
   border-radius: 10%;
   
 }
 .form-control{
-  border: 1.25em solid rgb(217, 176, 255);
-  border: 3px solid rgb(217, 176, 255);
+  border: 1.25em solid rgba(226, 43, 18, 0.81);
+  border: 3px solid rgba(226, 43, 18, 0.81);
   margin-left: auto;
   width: 80%;
   margin-right: auto;
 }
 
  .loginP{
-   color:  rgb(100, 61, 136);
+   color: rgba(174, 25, 5, 0.83);
  }
  .loginA{
-   color: rgb(217, 176, 255);
+   color:rgba(226, 43, 18, 0.81);
    text-decoration: underline;
 
  }
@@ -121,8 +121,8 @@ label{
  }
 
 .profileContainer{
-  background-color: rgb(100, 61, 136) ;
-  border: 1.25em solid rgb(217, 176, 255);
+  background-color:rgba(174, 25, 5, 0.83) ;
+  border: 1.25em solid rgba(226, 43, 18, 0.81);
   text-align: center;
   width: 90%;
   margin-left: auto;
@@ -130,8 +130,8 @@ label{
   border-radius: 10%;
   height: 550px;
 }
-.profileH, .profileA, .profileH3, .profileh2, .message span{
-  color: rgb(217, 176, 255);
+.profileH1, .profileA, .profileH3, .profileh2, .message span{
+  color: whitesmoke;
 }
 .profileDiv{
   display: none;
@@ -157,4 +157,10 @@ i{
 .row{
   width: 205%;
  
+}
+.jumbotron h1, .jumbotron p{
+  color: whitesmoke;
+}
+a.btn, button.loginBtn, .profileButton{
+  color: whitesmoke;
 }
