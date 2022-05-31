@@ -5,7 +5,7 @@
 **Link toProject:** 
 
 
-<img src= "rock_paper_scissors/css/snap.jpg" width =90%>
+<img src= "moodTracker.jpg" width =90%>
 
 
 ## How This Project was Created
