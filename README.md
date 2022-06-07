@@ -5,7 +5,7 @@
 **Link toProject:** 
 
 
-<img src= "moodTracker.jpg" width =90%>
+<img src= "mood.jpg" width =90%>
 
 
 ## How This Project was Created
